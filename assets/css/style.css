@@ -1,7 +1,8 @@
 *, *::after, *::before{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
 }
 
 body{
@@ -10,28 +11,33 @@ body{
 
 .main__title{
   margin: 15px 0 30px;
+
   color: orange;
+
   font-size: 40px;
   font-weight: 700;
   line-height: 44px;
+
   text-align: center;
   text-transform: uppercase;
 }
 
 .gallery{
-  background-color: beige;
-  text-align: center;
   padding: 10px;
+  border-radius: 15px;
   margin: 10px;
   margin-bottom: 40px;
-  border-radius: 15px;
 
+  background-color: beige;
+
+  text-align: center;
 }
 
 .gallery__img{
   width: 31.33%;
+  
   padding: 7px;
-  margin: 8px;
   border: 5px solid orange;
   border-radius: 6px;
+  margin: 8px;
 }
